@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Fundamentals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>HTML Fundamentals</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a></li>
+      <li><a class="nav-link" href="#Basic_Tags">Basic Tags</a></li>
+      <li><a class="nav-link" href="#Attributes_and_Elements">Attributes and Elements</a></li>
+      <li><a class="nav-link" href="#Lists_in_HTML">Lists in HTML</a></li>
+      <li><a class="nav-link" href="#Forms_and_Inputs">Forms and Inputs</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+
+    <section class="main-section" id="Introduction_to_HTML">
+      <header>Introduction to HTML</header>
+      <article>
+        <p>HTML stands for HyperText Markup Language, and it's the backbone of every web page on the internet.</p>
+        <p>It provides the structure for content, allowing browsers to render text, images, links, and more.</p>
+        <p>With HTML, developers define sections, headings, paragraphs, and other components of a webpage.</p>
+        <code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Welcome!&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code>
+        <p>The code above is the basic skeleton of an HTML document.</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Basic_Tags">
+      <header>Basic Tags</header>
+      <article>
+        <p>HTML tags usually come in pairs: an opening tag and a closing tag.</p>
+        <p>Some commonly used tags include <code>&lt;p&gt;</code> for paragraphs and <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> for headings.</p>
+        <p>Tags define the meaning and structure of your content.</p>
+        <code>&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;p&gt;This is a paragraph below the title.&lt;/p&gt;</code>
+        <ul>
+          <li>&lt;div&gt; - Container for elements</li>
+          <li>&lt;span&gt; - Inline container</li>
+          <li>&lt;br&gt; - Line break</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Attributes_and_Elements">
+      <header>Attributes and Elements</header>
+      <article>
+        <p>HTML elements can have attributes that provide additional information.</p>
+        <p>Attributes appear inside the opening tag and are written as name/value pairs.</p>
+        <p>For example, the <code>href</code> attribute in an anchor tag defines the link's destination.</p>
+        <code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code>
+        <p>Some common attributes include:</p>
+        <ul>
+          <li>id</li>
+          <li>class</li>
+          <li>src</li>
+          <li>alt</li>
+          <li>style</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Lists_in_HTML">
+      <header>Lists in HTML</header>
+      <article>
+        <p>HTML supports ordered and unordered lists to organize information.</p>
+        <p>Ordered lists use numbers, while unordered lists use bullets.</p>
+        <code>&lt;ul&gt;
+  &lt;li&gt;Item One&lt;/li&gt;
+  &lt;li&gt;Item Two&lt;/li&gt;
+&lt;/ul&gt;</code>
+        <p>Lists are great for navigation menus, feature lists, and more.</p>
+        <p>You can also nest lists for more complex structures.</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Forms_and_Inputs">
+      <header>Forms and Inputs</header>
+      <article>
+        <p>Forms allow users to submit data to a server.</p>
+        <p>HTML provides several input types like text, email, password, checkbox, and more.</p>
+        <code>&lt;form action="/submit" method="post"&gt;
+  &lt;input type="text" name="username" /&gt;
+  &lt;input type="submit" value="Send" /&gt;
+&lt;/form&gt;</code>
+        <p>Labels should be used to describe input fields for accessibility.</p>
+        <p>You can group related fields using the <code>&lt;fieldset&gt;</code> tag for clarity.</p>
+      </article>
+    </section>
+
+  </main>
+</body>
+
+</html>

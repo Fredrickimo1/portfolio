@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div id="wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="Melody Brass Co. Logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Our Edge</a></li>
+        <li><a class="nav-link" href="#how-it-works">Behind the Sound</a></li>
+        <li><a class="nav-link" href="#pricing">Plans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>Experience Bold Brass Like Never Before</h2>
+    <form
+      id="form"
+      action="https://www.freecodecamp.com/email-submit"
+      method="POST"
+    >
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your best email goes here"
+        required
+      />
+      <input type="submit" id="submit" value="Join the Band" />
+    </form>
+  </section>
+
+  <section id="features">
+    <div class="item">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="text-content">
+        <h3>Top-Tier Craftsmanship</h3>
+        <p>
+          We hand-build our instruments using fine brass and skilled hands —
+          built to shine and last.
+        </p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="icon">
+        <i class="fas fa-shipping-fast"></i>
+      </div>
+      <div class="text-content">
+        <h3>Swift Delivery</h3>
+        <p>
+          Your instrument ships within days of completion. You’ll have it
+          before your next gig.
+        </p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="icon">
+        <i class="fas fa-shield-alt"></i>
+      </div>
+      <div class="text-content">
+        <h3>Inspected & Approved</h3>
+        <p>
+          Each product undergoes rigorous testing for tuning, build quality,
+          and performance before it leaves our workshop.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works">
+    <iframe
+      id="video"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+      frameborder="0"
+      allowfullscreen
+      title="Crafting Our Brass Instruments"
+    ></iframe>
+  </section>
+
+  <section id="pricing">
+    <div class="model">
+      <h2>Soloist Model <span class="price">$600</span></h2>
+      <p>Lightweight, responsive, and ideal for the aspiring performer.</p>
+      <input type="button" value="Choose Plan" />
+    </div>
+
+    <div class="model">
+      <h2>Performer Series <span class="price">$900</span></h2>
+      <p>Designed for consistent tone and durability in daily use.</p>
+      <input type="button" value="Choose Plan" />
+    </div>
+
+    <div class="model">
+      <h2>Elite Edition <span class="price">$1200</span></h2>
+      <p>Professional-grade design with custom tuning options.</p>
+      <input type="button" value="Choose Plan" />
+    </div>
+  </section>
+
+  <footer id="footer">
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Reach Us</a></li>
+    </ul>
+    <p>&copy; 2025 Melody Brass Co.</p>
+  </footer>
+</div>
+</body>
+</html>
